@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimodal Route Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Multimodal Route Planner</h1>
+        <p>Plan your journey with walking, bus, train, and more</p>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <form id="route-form">
+                <label for="start">Starting Point:</label>
+                <input type="text" id="start" placeholder="e.g., Home" required>
+
+                <label for="end">Destination:</label>
+                <input type="text" id="end" placeholder="e.g., Office" required>
+
+                <button type="submit">Plan Route</button>
+            </form>
+        </section>
+
+        <section class="results">
+            <h2>Optimal Route</h2>
+            <ul id="route-output">
+                <li>Enter a starting point and destination to see the route.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Multimodal Transport Planner</p>
+    </footer>
+</body>
+</html>
